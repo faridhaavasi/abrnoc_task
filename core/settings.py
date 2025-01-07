@@ -43,6 +43,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
  # Add your local apps here
  'apps.authentication.apps.AuthenticationConfig',
+ 'apps.weather.apps.WeatherConfig',
 ]
 
 INSTALLED_APPS = [
