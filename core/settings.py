@@ -205,8 +205,12 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 
+from decouple import config
 
+# Other settings...
 
+# OpenWeatherMap API Key
+OPENWEATHERMAP_API_KEY = config('OPENWEATHERMAP_API_KEY', default='051f31d206f22ed317258ddff7c91bf5')
 
 
 

@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Your URLs...
     path('authentication/', include('apps.authentication.urls')),
+    path('weather/', include('apps.weather.urls')),
     
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     # Optional UI:
